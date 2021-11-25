@@ -1,0 +1,76 @@
+Classes are created by keyword class.
+Attributes are the variables that belong to a class.
+Attributes are always public and can be accessed using the dot (.) operator. Eg.: Myclass.Myattribute
+Class Definition Syntax:
+
+class ClassName:
+    # Statement-1
+    .
+    .
+    .
+    # Statement-N
+
+
+Class Objects
+An Object is an instance of a Class. A class is like a blueprint while an instance is a copy of the class with actual values. 
+
+Object_name=classname()
+
+
+Python Method
+A Python method is like a Python function, but it must be called on an object.
+
+And to create it, you must put it inside a class.
+
+Now in this Car class, we have five methods, namely, start(), halt(), drift(), speedup(), and turn().
+
+In this example, we put the pass statement in each of these, because we haven’t decided what to do yet.
+
+Let’s call the drift() Python method on blackverna.
+
+functions:-
+--------------
+What is a function in Python?
+In Python, a function is a group of related statements that performs a specific task.
+
+Functions help break our program into smaller and modular chunks. As our program grows larger and larger, functions make it more organized and manageable.
+
+Furthermore, it avoids repetition and makes the code reusable.
+
+Syntax of Function
+def function_name(parameters):
+	"""docstring"""
+	statement(s)
+
+
+
+
+
+
+
+vim Comman Commands
+
+ESC-> Switch To Command Mode
+:wq -> Write and Quit
+:q! -> Quit
+:I -> Insert
+Nano Comman Commands
+
+Command	Explanation
+CTRL + A	Lets you jump to the beginning of the line.
+CTRL + E	Lets you to jump to the end of the line.
+CTRL + Y	Scrolls page down.
+CTRL + V	Scrolls page up.
+CTRL + G	A Help window will pop out and show you all the available commands.
+CTRL + O	To save the file. Nano will ask you to edit or verify the desired file name.
+CTRL + W	Search for a specified phrase in your text. Press ALT + W to search for the same phrase again.
+CTRL + K	It cuts the entire selected line to the cut buffer (similar to clipboard).
+CTRL + U	To paste the text from the cut buffer into the selected line.
+CTRL + J	Justifies the current paragraph.
+CTRL + C	Shows the current cursor position in the text (line/column/character).
+CTRL + R	Opens a file and inserts it at the current cursor position.
+CTRL + X	To exit Nano text editor. It prompts a save request if you made any changes to the file.
+CTRL + \	Replaces string or a regular expression.
+CTRL + T	Invokes the spell checker, if available.
+CTRL + _	Lets you go to the specified line and column number.
+ALT + A	To select text. You can combine this command with CTRL + K to cut a specific part of the text to the cut buffer.
